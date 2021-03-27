@@ -16,3 +16,10 @@
     Introduzioni del LabelEncoder del pacchetto Scikit-Learn (Classe):
         - metodo fit(y): memorizza un np.array che registra il rapporto numero classe
     **ATTENZIONE** : il metodo fit si ripropone spesso nel pacchetto come metodo di classi diverse
+
+## Lezione 25 - 3 - 21
+
+    Introduzione della PCA dal pacchetto Scikit-Learn:
+    -ripasso della matrice varianza e covarianza e correlazione
+    -criteri di scelta della dimensione del nuovo spazio: m per massimizzare la varianza e minimizzare la dimensione
+    
