@@ -22,4 +22,8 @@
     Introduzione della PCA dal pacchetto Scikit-Learn:
     -ripasso della matrice varianza e covarianza e correlazione
     -criteri di scelta della dimensione del nuovo spazio: m per massimizzare la varianza e minimizzare la dimensione
+
+## Lezione 15 - 4 - 21
+
+    Fisher e PCA: confronto tra i due metodi per vedere quale dei due è più utile per separare le classi di dati
     
