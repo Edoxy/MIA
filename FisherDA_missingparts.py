@@ -86,7 +86,7 @@ class MultipleFisherDiscriminantAnalysis:
         # ESERCIZIO: scrivere la formula per proiettare X sullo spazio generato dagli autovettori in self.eigenvectors_
         # SUGGERIMENTO: ricordare che i vettori da proiettare sono le rige di X!
         
-        Z = ...
+        Z = X @ self.eigenvectors_
         
         return Z
 

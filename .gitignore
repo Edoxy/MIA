@@ -2,3 +2,6 @@
 .MIA
 .ipynb_checkpoints
 MIA_Workspace.code-workspace
+.DS_Store
+__pycache__
+.gitignore
