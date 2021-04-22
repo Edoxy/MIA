@@ -27,3 +27,7 @@
 
     Fisher e PCA: confronto tra i due metodi per vedere quale dei due è più utile per separare le classi di dati
     
+## Lezione 22 - 4 - 21
+
+    Lezione sull'applicazione dei metodi di discriminazione come LDA per la classificazione supervisionata sul dataset di prova
+    dei wine di scikitlearn; tentativo
