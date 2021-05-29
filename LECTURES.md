@@ -30,4 +30,4 @@
 ## Lezione 22 - 4 - 21
 
     Lezione sull'applicazione dei metodi di discriminazione come LDA per la classificazione supervisionata sul dataset di prova
-    dei wine di scikitlearn; tentativo
+    dei wine di scikitlearn; L'esercitazione ci permette di allenare il modello LDA e testarlo su parte del dataset, poi abbiamo confrontato il modello con la separazione dei dati ottenuta dalla FDA
