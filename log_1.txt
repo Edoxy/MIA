@@ -29,3 +29,133 @@ Donald Rumsfeld        0.071429            0.675       0.035714           0.0888
 George W Bush          0.047619            0.200       0.852679           0.044444    0.285714
 Gerhard Schroeder      0.011905            0.025       0.026786           0.555556    0.142857
 Tony Blair             0.023810            0.075       0.040179           0.200000    0.444444
+
+random_seed =  76228
+             X_trainval  X_test
+N. sanmples         684     456
+N.features         2352    2352
+            Numero PC  % Varianza Tot. Spiegata
+X_trainval         28                  0.797946
+MLPClassifier(batch_size=4, early_stopping=True,
+              hidden_layer_sizes=[150, 150, 150], max_iter=5000,
+              n_iter_no_change=300, random_state=76228,
+              validation_fraction=0.25)
+               Accuracy  Precision    Recall        F1
+train. + val.  0.954678   0.955440  0.954678  0.954350
+test           0.767544   0.766928  0.767544  0.760388
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell                 73                6              9                  1           0
+Donald Rumsfeld               3               35             10                  3           0
+George W Bush                 2               11            198                  5           3
+Gerhard Schroeder             1                5             15                 16           4
+Tony Blair                    3                2             15                  8          28
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.820225         0.067416       0.101124           0.011236    0.000000
+Donald Rumsfeld        0.058824         0.686275       0.196078           0.058824    0.000000
+George W Bush          0.009132         0.050228       0.904110           0.022831    0.013699
+Gerhard Schroeder      0.024390         0.121951       0.365854           0.390244    0.097561
+Tony Blair             0.053571         0.035714       0.267857           0.142857    0.500000
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.890244         0.101695       0.036437           0.030303    0.000000
+Donald Rumsfeld        0.036585         0.593220       0.040486           0.090909    0.000000
+George W Bush          0.024390         0.186441       0.801619           0.151515    0.085714
+Gerhard Schroeder      0.012195         0.084746       0.060729           0.484848    0.114286
+Tony Blair             0.036585         0.033898       0.060729           0.242424    0.800000
+random_seed =  77389
+             X_trainval  X_test
+N. sanmples         684     456
+N.features         2352    2352
+            Numero PC  % Varianza Tot. Spiegata
+X_trainval         28                  0.797888
+MLPClassifier(batch_size=4, early_stopping=True,
+              hidden_layer_sizes=[150, 150, 150], max_iter=5000,
+              n_iter_no_change=300, random_state=77389,
+              validation_fraction=0.25)
+               Accuracy  Precision    Recall        F1
+train. + val.  0.944444   0.944805  0.944444  0.944566
+test           0.769737   0.767330  0.769737  0.766150
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell                 73                3             10                  1           5
+Donald Rumsfeld               1               30              9                  1           1
+George W Bush                 6                5            196                  5          11
+Gerhard Schroeder             1                2              9                 15          14
+Tony Blair                    5                0             10                  6          37
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.793478         0.032609       0.108696           0.010870    0.054348
+Donald Rumsfeld        0.023810         0.714286       0.214286           0.023810    0.023810
+George W Bush          0.026906         0.022422       0.878924           0.022422    0.049327
+Gerhard Schroeder      0.024390         0.048780       0.219512           0.365854    0.341463
+Tony Blair             0.086207         0.000000       0.172414           0.103448    0.637931
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.848837            0.075       0.042735           0.035714    0.073529
+Donald Rumsfeld        0.011628            0.750       0.038462           0.035714    0.014706
+George W Bush          0.069767            0.125       0.837607           0.178571    0.161765
+Gerhard Schroeder      0.011628            0.050       0.038462           0.535714    0.205882
+Tony Blair             0.058140            0.000       0.042735           0.214286    0.544118
+
+random_seed =  77310
+             X_trainval  X_test
+N. sanmples         684     456
+N.features         2352    2352
+            Numero PC  % Varianza Tot. Spiegata
+X_trainval         28                  0.794891
+MLPClassifier(batch_size=4, early_stopping=True,
+              hidden_layer_sizes=[150, 150, 150], max_iter=5000,
+              n_iter_no_change=300, random_state=77310,
+              validation_fraction=0.25)
+               Accuracy  Precision    Recall        F1
+train. + val.  0.938596   0.938982  0.938596  0.938350
+test           0.785088   0.791821  0.785088  0.783976
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell                 72                1              7                  2           0
+Donald Rumsfeld               8               27             13                  2           3
+George W Bush                14               11            202                  6           1
+Gerhard Schroeder             1                2              2                 19           4
+Tony Blair                    4                1              7                  9          38
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.878049         0.012195       0.085366           0.024390    0.000000
+Donald Rumsfeld        0.150943         0.509434       0.245283           0.037736    0.056604
+George W Bush          0.059829         0.047009       0.863248           0.025641    0.004274
+Gerhard Schroeder      0.035714         0.071429       0.071429           0.678571    0.142857
+Tony Blair             0.067797         0.016949       0.118644           0.152542    0.644068
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.727273         0.023810       0.030303           0.052632    0.000000
+Donald Rumsfeld        0.080808         0.642857       0.056277           0.052632    0.065217
+George W Bush          0.141414         0.261905       0.874459           0.157895    0.021739
+Gerhard Schroeder      0.010101         0.047619       0.008658           0.500000    0.086957
+Tony Blair             0.040404         0.023810       0.030303           0.236842    0.826087
+
+
+random_seed =  32623
+             X_trainval  X_test
+N. sanmples         684     456
+N.features         2352    2352
+            Numero PC  % Varianza Tot. Spiegata
+X_trainval         28                  0.790883
+MLPClassifier(batch_size=4, early_stopping=True,
+              hidden_layer_sizes=[150, 300, 150], max_iter=5000,
+              n_iter_no_change=300, random_state=32623,
+              validation_fraction=0.25)
+               Accuracy  Precision    Recall        F1
+train. + val.  0.942982   0.943400  0.942982  0.942581
+test           0.743421   0.745081  0.743421  0.742170
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell                 73                2              5                  0           5
+Donald Rumsfeld               6               35              9                  3           3
+George W Bush                 6               12            162                  5          13
+Gerhard Schroeder             1                2              6                 22          16
+Tony Blair                    4                0             13                  6          47
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.858824         0.023529       0.058824           0.000000    0.058824
+Donald Rumsfeld        0.107143         0.625000       0.160714           0.053571    0.053571
+George W Bush          0.030303         0.060606       0.818182           0.025253    0.065657
+Gerhard Schroeder      0.021277         0.042553       0.127660           0.468085    0.340426
+Tony Blair             0.057143         0.000000       0.185714           0.085714    0.671429
+                   Colin Powell  Donald Rumsfeld  George W Bush  Gerhard Schroeder  Tony Blair
+Colin Powell           0.811111         0.039216       0.025641           0.000000    0.059524
+Donald Rumsfeld        0.066667         0.686275       0.046154           0.083333    0.035714
+George W Bush          0.066667         0.235294       0.830769           0.138889    0.154762
+Gerhard Schroeder      0.011111         0.039216       0.030769           0.611111    0.190476
+Tony Blair             0.044444         0.000000       0.066667           0.166667    0.559524
+
+

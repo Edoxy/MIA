@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
+
 from scipy.sparse.construct import random
 from sklearn import datasets
+
 import matplotlib
 import matplotlib.pyplot as plt
+
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import GridSearchCV
 from sklearn.neural_network import MLPClassifier
@@ -11,11 +14,15 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import f1_score, precision_score, recall_score, confusion_matrix, make_scorer
 from IPython.display import display
 
+from collections import Counter
+from imblearn.over_sampling import RandomOverSampler 
+
 import os, ssl, sys
 
-sys.stdout = open('log_2.txt', 'a')
 
-lfw_people = datasets.fetch_lfw_people(min_faces_per_person=100, resize=0.45)
+sys.stdout = open('log_3.txt', 'a')
+
+lfw_people = datasets.fetch_lfw_people(min_faces_per_person=100, resize=0.4)
 
 face_data = lfw_people['data']
 face_images = lfw_people['images']
@@ -38,7 +45,7 @@ display(pd.DataFrame({'X_trainval': X_trainval.shape, 'X_test': X_test.shape}, i
 
 # Preparazione PCA
 
-pca = PCA(0.75)
+pca = PCA(0.8)
 
 pca.fit(X_trainval)
 
@@ -54,8 +61,13 @@ X_trainval = pca.transform(X_trainval)
 X_test_old = X_test.copy()
 X_test = pca.transform(X_test)
 
+#oversampling
+ros = RandomOverSampler(random_state= random_state)
+X_trainval, y_trainval = ros.fit_resample(X_trainval, y_trainval)
+
+
 # Inizializzazione iper-parametri MLP
-hidden_layer_sizes = [200, 500, 400, 150]
+hidden_layer_sizes = [1000, 300]
 activation = 'relu'
 #300
 patience = 300
